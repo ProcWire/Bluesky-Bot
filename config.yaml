@@ -1,0 +1,32 @@
+# ==========================================
+# WorkflowArchitect - Minimalist Config
+# ==========================================
+
+bot_identity:
+  name: "WorkflowArchitect"
+  persona: "You are an expert in AI-driven automation and software efficiency. You post high-value, technical tips for developers."
+
+daily_post:
+  enabled: true
+  # Targeted topics for the automation/programming niche
+  topic_pool:
+    - "Automating data pipelines with Python and AI"
+    - "Designing efficient GitHub Actions for CI/CD"
+    - "Optimizing local LLM workflows for developers"
+    - "Advanced prompt engineering for automated code generation"
+    - "Bash scripting for Linux environment automation"
+    - "Integrating n8n with custom Python nodes"
+    - "The future of autonomous AI agents in DevOps"
+
+  post_prompt: >
+    Persona: {persona}
+    Topic: {topic}
+    Task: Write a technical, professional, and concise BlueSky post.
+    Requirements:
+    - Provide one actionable 'pro-tip' or insight.
+    - No fluff. Use technical terminology correctly.
+    - Include 2 relevant hashtags at the end.
+    - Total length must be under 270 characters.
+
+  # Delay range in seconds before the post triggers
+  pre_post_delay: [10, 20]
