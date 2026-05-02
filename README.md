@@ -2,7 +2,7 @@
 
 A professional, text-only automated broadcaster for BlueSky, powered by **Google Gemini 2.5 Flash** and **GitHub Actions**. This bot is designed for technical niches like Automation, Programming, and AI workflows.
 
-> **Note:** This repository contains the **Lite Version** of our automation suite. It provides essential, text-only broadcasting features for free. For the full suite of engagement and AI image tools, see the **SkyPulse AI** section below.
+> **Note:** This repository contains the **Lite Version** of our automation suite. It provides essential, text-only broadcasting features for free. For the full suite of engagement and AI image tools, see the [**SkyPulse AI**](https://github.com/ProcWire/Bluesky-Bot#-elevate-your-bluesky-brand-with-skypulse-ai) section below.
 
 ---
 
